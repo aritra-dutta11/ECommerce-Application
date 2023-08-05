@@ -1,0 +1,73 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+    padding: 2rem;
+    background-color: #ffdee9;
+    background-image: -webkit-linear-gradient(0deg #ffdee9 50%, #9ffffa 100%);
+}
+
+.form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffff;
+    padding: 40px;
+    border-radius: 1rem;
+}
+
+.form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.form-container form button {
+    background-color: black;
+    width: 100%;
+    border: 1px solid black;
+
+    border-radius: 0;
+}
+
+.form-container form button:hover {
+    border: 1px solid black;
+    background: linear-gradient(to right, #000000be, #000000);
+}
+
+.form-container form .cpass {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form .otp {
+    display: flex;
+}
+
+.form-container form .otp button {
+    width: auto;
+    margin-left: 2rem;
+}
+
+.form-container form .otp input {
+    width: auto
+}
+
+.forgotp {
+    margin-left: 6rem;
+    transition: 200ms ease-in all;
+    text-decoration: none;
+    color: #000000;
+}
+
+.forgotp:hover {
+    color: gray;
+    text-decoration: underline;
+}

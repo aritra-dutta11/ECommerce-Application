@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@700&family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------NAV BAR------------*/
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 50px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 10px -5px gray;
+  border-bottom: 0.5px solid gray;
+  background-image: linear-gradient(to right, rgb(164, 216, 255), rgb(159, 255, 223));
+
+}
+
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: 1000;
+  letter-spacing: 2px;
+}
+
+.brandicon {
+  margin-bottom: 9px;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  font-size: 1.2rem;
+}
+
+.active {
+  border-bottom: 2px solid rgb(255, 133, 19);
+}
+
+
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.margin {
+  margin-right: 30px !important;
+}
+
+
+.dropdown-menu {
+  width: 150%;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  border-bottom: none !important;
+}
+
+.dropdown-toggle {
+  border-bottom: none !important;
+}
+
+
+
+
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #434343,
+      #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  padding: 2rem;
+  color: white;
+  transition: 300ms ease-in all;
+}
+
+.footer a:hover {
+  color: #857f7fd0;
+}
+
+.pnf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.pnf h1 {
+  font-size: 7rem;
+}
+
+.pnf h3 {
+  font-size: 2rem;
+}
+
+.pnf-btn {
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.3rem;
+  transition: 300ms ease-in all;
+}
+
+.pnf-btn:hover {
+  background-color: #a5a0a083;
+}
+
+.category-page {
+  background-image: linear-gradient(to right, rgb(139, 255, 241, 0.819), rgba(190, 248, 238, 0.445), rgba(139, 255, 241, 0.819))
+}
+
+.product-link {
+  text-decoration: none !important;
+  color: #000000 !important;
+  transition: 300ms ease-in all;
+}
